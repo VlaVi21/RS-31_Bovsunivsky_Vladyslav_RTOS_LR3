@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp.sp
+"lr3_rtos\startup_stm32f411xe.o"
+"lr3_rtos\main.o"
+"lr3_rtos\stm32f4xx_it.o"
+"lr3_rtos\stm32f4xx_hal_msp.o"
+"lr3_rtos\stm32f4xx_hal_uart.o"
+"lr3_rtos\stm32f4xx_hal_rcc.o"
+"lr3_rtos\stm32f4xx_hal_rcc_ex.o"
+"lr3_rtos\stm32f4xx_hal_flash.o"
+"lr3_rtos\stm32f4xx_hal_flash_ex.o"
+"lr3_rtos\stm32f4xx_hal_flash_ramfunc.o"
+"lr3_rtos\stm32f4xx_hal_gpio.o"
+"lr3_rtos\stm32f4xx_hal_dma_ex.o"
+"lr3_rtos\stm32f4xx_hal_dma.o"
+"lr3_rtos\stm32f4xx_hal_pwr.o"
+"lr3_rtos\stm32f4xx_hal_pwr_ex.o"
+"lr3_rtos\stm32f4xx_hal_cortex.o"
+"lr3_rtos\stm32f4xx_hal.o"
+"lr3_rtos\stm32f4xx_hal_exti.o"
+"lr3_rtos\system_stm32f4xx.o"
+--strict --scatter "LR3_RTOS\LR3_RTOS.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LR3_RTOS.map" -o LR3_RTOS\LR3_RTOS.axf
