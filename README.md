@@ -48,6 +48,11 @@ ________________________________________________________________________________
 
 - **STATE_LED:** Індикація активності процесу перекладу.
 
+- 1 GND - [-MORSE_LED+] - [резистор 325R] - PA0
+- 2 GND - [-STATE_LED+] - [резистор 325R] - PC13
+- 3 [USART2_TX] (PA2) - [USART1_RX] (PA10)
+- 4 [USART2_RX] (PA3) - [USART1_TX] (PA9) 
+
 ---
 ### 🛠️ Налаштування UART (CMSIS/HAL)
 <img width="202" height="102" alt="image" src="https://github.com/user-attachments/assets/5d85d79c-7b4c-402c-b420-5efe26fcda30" />
