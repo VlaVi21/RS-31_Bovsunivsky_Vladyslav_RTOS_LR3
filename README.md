@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/0966a8da-84ad-4f86-81c6-fe7419c401cf
 # RS-31_Bovsunivsky_Vladyslav_RTOS_LR2
 
 **Номер групи:** РС-31
