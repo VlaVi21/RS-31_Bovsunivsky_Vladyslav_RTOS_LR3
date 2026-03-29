@@ -52,6 +52,8 @@ ________________________________________________________________________________
 ---
 ### 🛠️ Налаштування UART (CMSIS/HAL)
 <img width="202" height="102" alt="image" src="https://github.com/user-attachments/assets/5d85d79c-7b4c-402c-b420-5efe26fcda30" />
+<img width="1252" height="1018" alt="image" src="https://github.com/user-attachments/assets/23ce323f-4959-4082-a16b-008c61647033" />
+
 
 ---
 ### ⁉️Як запустити:
