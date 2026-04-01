@@ -1,4 +1,4 @@
-# RS-31_Bovsunivsky_Vladyslav_RTOS_LR2
+# RS-31_Bovsunivsky_Vladyslav_RTOS_LR3
 
 **Номер групи:** РС-31
 
