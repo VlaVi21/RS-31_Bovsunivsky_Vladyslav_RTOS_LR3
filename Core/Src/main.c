@@ -4,6 +4,11 @@
 використанням бібліотек CMSIS на основі патерну «стан» з
 урахуванням реального часу. */
 
+	// Підключення: 1 GND - [-MORSE_LED+] - [резистор 325R] - PA0
+    //              2 GND - [-STATE_LED+] - [резистор 325R] - PC13
+	//              3 [USART2_TX] (PA2) - [USART1_RX] (PA10)
+	//              4 [USART2_RX] (PA3) - [USART1_TX] (PA9) 
+
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
@@ -124,10 +129,6 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	// Підключення: 1 GND - [-MORSE_LED+] - [резистор 325R] - PA0
-    //              2 GND - [-STATE_LED+] - [резистор 325R] - PC13
-	//              3 [USART2_TX] (PA2) - [USART1_RX] (PA10)
-	//              4 [USART2_RX] (PA3) - [USART1_TX] (PA9) 
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
